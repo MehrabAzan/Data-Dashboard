@@ -10,14 +10,22 @@ Time spent: **10** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The app displays a list of data fetched using an API call**
-- [x] **App dashboard includes at least three summary statistics about the data, such as**
-  - [x] 20 characters loaded
-  - [x] alive characters count
-  - [x] average episode appearances
+- [x] **The site has a dashboard displaying a list of data fetched using an API call**
+  - The dashboard should display at least 10 unique items, one per row
+  - The dashboard includes at least two features in each row
+- [x] **`useEffect` React hook and `async`/`await` are used**
+- [x] **The app dashboard includes at least three summary statistics about the data** 
+  - The app dashboard includes at least three summary statistics about the data, such as:
+    - 20 characters loaded
+    - alive characters count
+    - average episode appearances
 - [x] **A search bar allows the user to search for an item in the fetched data**
-- [x] **An additional filter allows the user to filter items in the fetched data by another attribute**
-- [x] **The user can use multiple filters at once**
+  - The search bar **correctly** filters items in the list, only displaying items matching the search query
+  - The list of results dynamically updates as the user types into the search bar
+- [x] **An additional filter allows the user to restrict displayed items by specified categories**
+  - The filter restricts items in the list using a **different attribute** than the search bar 
+  - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
+  - The dashboard list dynamically updates as the user adjusts the filter
 
 The following **optional** features are implemented:
 
